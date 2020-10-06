@@ -27,7 +27,7 @@ while True:
                 try:
                     # here answer using wolframalpha
                     # so for doing this i have to use the api of wolframalpha
-                    app_id = "TXAHKX-AGPJLLRHQV"
+                    app_id = "my wolframAlpha API id is here"
                     client = wolframalpha.Client(app_id)
                     res = client.query(text)
                     answer = next(res.results).text
